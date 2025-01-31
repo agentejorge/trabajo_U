@@ -1,22 +1,21 @@
-/* ======= Estilos Generales ======= */
+
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px; /* Tamaño de fuente agregado */
+  font-size: 16px; 
   margin: 0;
   padding: 0;
 }
 
-/* ======= Header ======= */
 header {
-  background-color: #4CAF50; /* Color de fondo */
+  background-color: #4CAF50; 
   color: white;
   text-align: center;
   padding: 20px;
 }
 
-/* ======= Navegación ======= */
+
 nav {
-  background-color: #333; /* Color de fondo agregado */
+  background-color: #333; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,8 +30,8 @@ nav ul {
 }
 
 nav ul li {
-  display: inline-block; /* Mostrar en línea */
-  width: 150px; /* Ancho modificado */
+  display: inline-block; 
+  width: 150px; 
   text-align: center;
 }
 
@@ -44,13 +43,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff6347; /* Efecto hover */
+  color: #ff6347;
 }
 
-/* ======= Estilo para "Saltar al contenido principal" ======= */
+
 #skip-link {
   position: absolute;
-  top: -40px; /* Oculto inicialmente */
+  top: -40px;
   left: 0;
   background-color: #ff6347;
   color: white;
@@ -65,34 +64,34 @@ nav ul li a:hover {
   top: 0;
 }
 
-/* ======= Estilos para main ======= */
+
 main {
-  background-color: #f0f0f0; /* Color de fondo agregado */
-  font-size: 18px; /* Tamaño de fuente agregado */
+  background-color: #f0f0f0; 
+  font-size: 18px; 
   padding: 20px;
 }
 
-/* ======= Estilos para footer ======= */
+
 footer {
-  background-color: #222; /* Color de fondo agregado */
+  background-color: #222; 
   color: white;
   text-align: center;
   padding: 10px;
 }
 
-/* ======= Estilos para h1 ======= */
+
 h1 {
-  text-align: center; /* Alineación */
-  font-family: "Georgia", serif; /* Fuente modificada */
+  text-align: center; 
+  font-family: "Georgia", serif; 
   color: #333;
 }
 
-/* ======= Estilos para párrafos (p) ======= */
+
 p {
-  line-height: 1.6; /* Altura de línea agregada */
+  line-height: 1.6; 
 }
 
-/* ======= Estilos para imágenes ======= */
+
 img {
   border: 5px solid #ddd;
   padding: 10px;
@@ -101,20 +100,20 @@ img {
   transition: transform 0.3s ease;
 }
 
-/* Efecto hover en imágenes */
+
 img:hover {
   transform: scale(1.1);
 }
 
-/* ======= Grid para las imágenes en main ======= */
+
 main > div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 15px;
   justify-items: center;
 }
 
-/* ======= nth-child para imágenes ======= */
+
 div img:nth-child(odd) {
   border-color: #ff6347;
 }

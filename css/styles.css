@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347;
+  }
+  
+  #skip-link {
+    position: absolute;
+    top: -40px; 
+    left: 0;
+    background-color: #ff6347;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    transition: top 0.3s ease;
+  }
+  
+  #skip-link:focus {
+    top: 0;
+  }
+  
+
+  img {
+    border: 5px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+
+  main > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+  }
+  
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+ 
+  div img:nth-child(odd) {
+    border-color: #ff6347;
+  }
+  
+  div img:nth-child(even) {
+    border-color: #4CAF50;
+  }
+  
